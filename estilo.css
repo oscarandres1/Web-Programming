@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+}
+.portada{
+  	padding: 26px;
+	background-color: #253752;
+	font-size:25px;
+	color:#FFFFFF;
+  	font-family: cambria;
+  	word-spacing: 12px;
+}
+.entradas{
+  	padding: 30px;
+  	background-color: #253752;
+  	font-family: cambria;
+  	text-align: center;
+  	word-spacing: 12px;
+  	color: #FFFFFF;
+ }
+a:link, a:visited{
+	text-decoration: none;	
+	font-size:25px;
+	color:#FFFFFF;
+	font-family: cambria;
+}
+a:hover{
+	text-decoration: none;	
+	font-size:22px;
+	color:#FFFFFF;
+  	font-family: cambria; 
+}
+h1{
+  	font-family: cambria;
+}
+h4{
+	padding: 10px;
+	background-color: #6C6968;
+  	font-family: cambria;
+  	color:#FFFFFF;
+  	margin:0px;
+}
+input[type = buscar]{
+	width: 100px;
+	transition: width 0.4s ease-in-out;
+	margin:0px;
+}
+input[type = buscar]:focus{
+  width: 12%;
+}
+ul{
+	font-family: cambria;
+	font-size: 20px;
+}
