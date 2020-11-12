@@ -1,6 +1,13 @@
 body{
 	margin: 0px;
 }
+.Imagenes table {
+	table-layout: fixed;
+	margin:auto;
+	text-align: center;
+	font-family: cambria;
+	font-size:20px;
+}
 .portada{
   	padding: 26px;
 	background-color: #253752;
@@ -52,12 +59,5 @@ input[type = buscar]:focus{
 ul{
 	font-family: cambria;
 	font-size: 20px;
-}
-
-.Imagenes table {
-	table-layout: fixed;
-	margin:auto;
-	
-	text-align: center;
 }
 
