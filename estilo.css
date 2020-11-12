@@ -17,7 +17,8 @@ body{
   	word-spacing: 12px;
   	color: #FFFFFF;
  }
-a:link, a:visited{
+a:link, 
+a:visited{
 	text-decoration: none;	
 	font-size:25px;
 	color:#FFFFFF;
@@ -31,6 +32,7 @@ a:hover{
 }
 h1{
   	font-family: cambria;
+  	margin-bottom: 0px;
 }
 h4{
 	padding: 10px;
@@ -51,3 +53,11 @@ ul{
 	font-family: cambria;
 	font-size: 20px;
 }
+
+.Imagenes table {
+	table-layout: fixed;
+	margin:auto;
+	
+	text-align: center;
+}
+
