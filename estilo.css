@@ -24,6 +24,13 @@ body{
   	word-spacing: 12px;
   	color: #FFFFFF;
  }
+ .salida{
+	padding: 10px;
+	background-color: #6C6968;
+  	font-family: cambria;
+  	color:#FFFFFF;
+  	margin:0px;
+}
 a:link, 
 a:visited{
 	text-decoration: none;	
@@ -40,13 +47,6 @@ a:hover{
 h1{
   	font-family: cambria;
   	margin-bottom: 0px;
-}
-h4{
-	padding: 10px;
-	background-color: #6C6968;
-  	font-family: cambria;
-  	color:#FFFFFF;
-  	margin:0px;
 }
 input[type = buscar]{
 	width: 100px;
