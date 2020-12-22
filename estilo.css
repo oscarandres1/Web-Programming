@@ -1,35 +1,44 @@
 body{
 	margin: 0px;
 }
-.Imagenes table {
+.Imagenes table{
 	table-layout: fixed;
 	margin:auto;
 	text-align: center;
 	font-family: cambria;
 	font-size:20px;
+	content: center;
+}
+#logo{
+	position: absolute; top:16px; left: 175px; width: 109px; height: 39px;
 }
 .portada{
-  	padding: 26px;
+  padding: 26px;
 	background-color: #253752;
+	opacity: 0.94;
 	font-size:25px;
 	color:#FFFFFF;
-  	font-family: cambria;
-  	word-spacing: 12px;
+  font-family: cambria;
+  word-spacing: 12px;
 }
 .entradas{
-  	padding: 30px;
-  	background-color: #253752;
-  	font-family: cambria;
-  	text-align: center;
-  	word-spacing: 12px;
-  	color: #FFFFFF;
- }
+  padding: 22px;
+  background-color: #253752;
+  opacity: 0.94;
+  font-family: cambria;
+  text-align: center;
+  word-spacing: 12px;
+  padding-left: 150px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
  .salida{
 	padding: 10px;
 	background-color: #6C6968;
-  	font-family: cambria;
-  	color:#FFFFFF;
-  	margin:0px;
+  font-family: cambria;
+  font-size: 17px;
+  color:#FFFFFF;
+  margin:0px;
 }
 a:link, 
 a:visited{
@@ -51,13 +60,26 @@ h1{
 input[type = buscar]{
 	width: 100px;
 	transition: width 0.4s ease-in-out;
-	margin:0px;
 }
 input[type = buscar]:focus{
   width: 12%;
+  outline: none; 
 }
 ul{
 	font-family: cambria;
 	font-size: 20px;
 }
-
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
