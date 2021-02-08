@@ -22,10 +22,10 @@ function loadImage(){
 }
 
 function replaceImage(){
-	var del = document.getElementsByTagName("td");
-	var length = del.length;
+	var replace = document.getElementsByTagName("td");
+	var length = replace.length;
 	for(var i = 0; i < qtClothes/2; i++){
-		del[i].replaceChild(loadImage(), del[i].childNodes[0]);
+		replace[i].replaceChild(loadImage(), replace[i].childNodes[0]);
 	}
 	setTimeout(replaceImage, 2450);
 }	
@@ -49,14 +49,6 @@ function loadSlide(cloth, route){
 		tableD.appendChild(loadImage());
 	}
 
-	/*for(var i = 0; i<showClothes; i++){
-		tableD = document.createElement("td");
-		tableD.textContent = cloth + " estilo "+ model++;
-		tableRtxt.appendChild(tableD);
-		if(model == qtClothes+1)
-		model =1;
-
-	}*/
-	setTimeout(replaceImage, 2450);
+	replaceImage();
 }
 

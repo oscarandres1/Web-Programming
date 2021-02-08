@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" href="Estudiantes.xsl"?>
+
+<Ropa>
+	<Medias>
+		<uno>
+			<estilo> Bob Esponja </nombre>
+			<precio> 3.50$ </apellido>
+		</uno>
+		<dos>
+			<estilo> Bob Esponja 2</nombre>
+			<precio> 2.75$ </precio>
+		</dos>
+		<tres>
+			<estilo> Hora de Aventura </nombre>
+			<precio> 3.00$ </precio>
+		</tres>
+		<cuatro>
+			<estilo> Looney tons 1 </nombre>
+			<precio> 2.50$ </precio>
+		</cuatro>
+		<uno>
+			<estilo> Looney tons 2 </nombre>
+			<precio> 3.75$ </precio>
+		</uno>
+	</Medias>
+	<Camisas_Chicos>
+		<uno>
+			<estilo> Joker </nombre>
+			<precio> 3.50$ </apellido>
+		</uno>
+		<dos>
+			<estilo> Norton </nombre>
+			<precio> 4.50$ </precio>
+		</dos>
+		<tres>
+			<estilo> Space </nombre>
+			<precio> 3.00$ </precio>
+		</tres>
+		<cuatro>
+			<estilo> Cockies </nombre>
+			<precio> 3.25$ </precio>
+		</cuatro>
+		<uno>
+			<estilo> Azul </nombre>
+			<precio> 3.75$ </precio>
+		</uno>
+	</Medias>
+</clase2020>

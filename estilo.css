@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 }
+
 .Imagenes table{
 	table-layout: fixed;
 	margin:auto;
@@ -10,8 +11,9 @@ body{
 	content: center;
 }
 #logo{
-	position: absolute; top:16px; left: 175px; width: 109px; height: 39px;
+	position: absolute; top:16px; left: 225px; width: 109px; height: 39px;
 }
+
 .portada{
   padding: 26px;
 	background-color: #253752;
